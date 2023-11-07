@@ -5,8 +5,9 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String s = br.readLine().trim();
+        String S = br.readLine().trim();
         int i = Integer.parseInt(br.readLine());
-        System.out.println(s.charAt(i - 1));
+
+        System.out.println(S.charAt(i - 1));
     }
 }
