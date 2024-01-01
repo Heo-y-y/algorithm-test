@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -22,13 +23,16 @@ public class Main {
                     sb.append('+').append('\n');
                 }
                 start = value;
-            } else if (stack.peek() != value) {
+
+            }
+
+            else if (stack.peek() != value) {
                 System.out.println("NO");
                 return;
-            }
+                }
             stack.pop();
             sb.append('-').append('\n');
-        }
+            }
         System.out.println(sb);
     }
 }
