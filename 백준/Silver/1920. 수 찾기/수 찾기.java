@@ -21,7 +21,7 @@ public class Main {
 
         int m = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
-        st = new StringTokenizer(br.readLine());
+        st = new StringTokenizer(br.readLine(), " ");
 
         for (int i = 0; i < m; i++) {
             int mValue = Integer.parseInt(st.nextToken());
